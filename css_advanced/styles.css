@@ -1,1 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background: linear-gradient(to bottom, #1d1f27, #11131a);
+    color: white;
+    text-align: center;
+}
+
+header{
+    padding: 20px, 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav 
+a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500px;
+}
+
+    .Team{
+        background-image: url('get schooled.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 100px, 20px;
+        position: relative;
+    }
+
+    .Team::before{
+        content:"";
+        position: absolute;
+        inset: 0;
+        background: rgba(0,0,0,0.6);
+        z-index: 1;
+    }
+
+    .Team-content{
+        position: relative;
+        z-index: 2;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .Team h1{
+        font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+    }
+
+    .Team nav {
+  margin: 20px 0;
+}
+
+.Team nav span {
+  margin: 0 15px;
+  font-weight: 500;
+  color: #ccc;
+}
+
+.Team .cta-button {
+  background: #c271ff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: background 0.3s ease;
+}
+
+.Team .cta-button:hover {
+  background: #a851e2;
+}
+
+
+.Team member {
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, transparent, #0b0d13);
+}
+
+.Team member h2 {
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+.Team member h2 span {
+  color: #c271ff;
+}
+
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.profile {
+  max-width: 150px;
+  text-align: center;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 10px;
+}
+
+.profile h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.profile p {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
 
