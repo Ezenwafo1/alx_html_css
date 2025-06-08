@@ -10,7 +10,7 @@ Welcome to **Get Schooled** – an inspiring education platform designed to conn
 
 - 🔗 Top Navigation with **Courses**, **Pricing**, and **Login**
 - 🔘 Prominent **Register** button for quick sign-up
-- 👩🏽‍🏫 4 Featured Mentors with names & roles
+- 👩🏽‍🏫 4 Featured Team members with names & roles
 - 💬 Testimonial section with image & quote
 - 🎥 **Most Popular Tutorials** featuring 4 reviewable videos
 - 🆓 **Free Membership** area with 4 benefit highlights
@@ -30,10 +30,10 @@ Welcome to **Get Schooled** – an inspiring education platform designed to conn
 
 ## 📷 Screenshots
 
-### 💡 Hero & Header
+### 💡 Team head
 <img src="screenshot-hero.png" width="600"/>
 
-### 👩🏾‍🏫 Mentors Section
+### 👩🏾‍🏫 Team members Section
 <img src="screenshot-mentors.png" width="600"/>
 
 ### 🗣️ Testimonial
