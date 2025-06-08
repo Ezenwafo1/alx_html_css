@@ -15,9 +15,10 @@ Welcome to **Get Schooled** – an inspiring education platform designed to conn
 - 🎥 **Most Popular Tutorials** featuring 4 reviewable videos
 - 🆓 **Free Membership** area with 4 benefit highlights
 - ❓ FAQ section answering common questions
-- 📱 Social media links & professional footer
-- SmileSchool © 2020
-[ Facebook | Twitter | Instagram ]
+- Professional footer 
+- 📱 Social media links - SmileSchool © 2020
+[ Facebook | Twitter | Instagram ] 
+
 
 
 ---
