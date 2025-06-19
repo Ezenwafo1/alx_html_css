@@ -1,47 +1,39 @@
-# 🎓 Get Schooled
+# 🎧 Headphone Landing Page
 
-Welcome to **Get Schooled** – an inspiring education platform designed to connect learners with top-notch mentors, rich video tutorials, and a seamless learning experience.
+A modern, responsive landing page for showcasing stylish, high-quality headphones. This project is designed to practice frontend development skills using HTML, CSS, and optionally JavaScript.
 
-![Get Schooled Logo](link-to-your-logo.png)
+## 🚀 Live Preview
 
----
-
-## 🚀 Features
-
-- 🔗 Top Navigation with **Courses**, **Pricing**, and **Login**
-- 🔘 Prominent **Register** button for quick sign-up
-- 👩🏽‍🏫 4 Featured Team members with names & roles
-- 💬 Testimonial section with image & quote
-- 🎥 **Most Popular Tutorials** featuring 4 reviewable videos
-- 🆓 **Free Membership** area with 4 benefit highlights
-- ❓ FAQ section answering common questions
-- Professional footer 
-- 📱 Social media links - SmileSchool © 2020
-[ Facebook | Twitter | Instagram ] 
-
-
+[Click here to view the live page](#) *(Replace with your live link when deployed)*
 
 ---
 
-## 🖥️ Live Demo
+## 📸 Screenshots
 
-👉 [[Check out the live website here](https://www.figma.com/design/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?node-id=3558-0&t=8O0tfLWF5nOSVmN4-0)](#) 
+![Desktop View](screenshots/desktop-preview.png)  
+*Landing page - Desktop version*
+
+![Mobile View](screenshots/mobile-preview.png)  
+*Landing page - Mobile version*
 
 ---
 
-## 📷 Screenshots
+## 🛠️ Built With
 
-### 💡 Team head
-<img src="screenshot-hero.png" width="600"/>
+- ✅ **HTML5** – Semantic layout structure
+- ✅ **CSS3** – Modern, responsive styling
+- ✅ **Flexbox & Grid** – For layout
+- ✅ *(Optional)* **JavaScript** – For interactive elements like toggles or animations
 
-### 👩🏾‍🏫 Team members Section
-<img src="screenshot-mentors.png" width="600"/>
+---
 
-### 🗣️ Testimonial
-<img src="screenshot-testimonial.png" width="600"/>
+## ✨ Features
 
-### ⭐ Tutorials & Reviews
-<img src="screenshot-tutorials.png" width="600"/>
+- 📱 Responsive design for all devices
+- 🎨 Sleek, minimalistic design
+- 📦 Highlighted product features and specifications
+- 🛒 Call-to-action buttons for purchase or subscription
+- 📧 Email subscription form (non-functional placeholder)
 
 ---
 
