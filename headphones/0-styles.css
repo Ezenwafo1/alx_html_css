@@ -5,7 +5,7 @@
     font-family: georgia, sans-serif;
 }
 
-.hero{
+.header-content{
 height: 100vh;
 background: url;
 position: relative;
@@ -54,7 +54,7 @@ nav a{
     margin-left: auto;
 }
 
-.content h1{
+.content1{
     font-size: 1rem;
     margin-bottom: 1rem;
     color: #ccc;
