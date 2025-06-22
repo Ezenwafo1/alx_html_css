@@ -1,61 +1,80 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: georgia, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, serif;
 }
 
-.header{
-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: flex;
-padding: 2rem;
+.header {
+  height: 100vh;
+  background: url('background.jpg') no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0,0,0,0.6);
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: white;
 }
 
-.logo{
-    font-weight: bold;
-    font-size: 1.5rem;
+.logo img {
+  height: 40px;
+  width: auto;
 }
 
-nav a{
-    margin-left: 1rem;
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
+nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
-.content{
-    margin-top: auto;
-    color: white;
-    max-width: 600px;
-    text-align: right;
-    margin-left: auto;
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
 
-.content1{
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    color: #ccc;
+nav a:hover {
+  color: #ff4d4d;
+}
+
+.content {
+  margin-top: auto;
+  margin-left: auto;
+  color: white;
+  max-width: 600px;
+  text-align: right;
+  z-index: 2;
+}
+
+.content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #f2f2f2;
+}
+
+.content p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #ccc;
 }
 
 button {
@@ -71,11 +90,11 @@ button {
 }
 
 button:hover {
-    background: #e43e3e;
+  background: #e43e3e;
 }
 
-.description{
-    font-size: 0.9rem;
-    line-height: 1.5;
-    color: #ddd;
+.content1 {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #ddd;
 }
