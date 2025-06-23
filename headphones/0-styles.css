@@ -67,45 +67,56 @@ nav ul li a {
   color: #f06a6a;
 }
 
-.content {
-  margin-top: auto;
-  margin-left: auto;
-  color: white;
-  max-width: 600px;
-  text-align: right;
-  z-index: 2;
+.header-content {
+ display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: cal(100vh - 120px);
+  padding-bottom: 50px;
+  position: relative;
+  z-index: 5;
 }
 
-.content h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #f2f2f2;
+.text-content {
+ max-width: 600px;
+  margin-bottom: 40px;
 }
 
-.content p {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  color: #ccc;
+.text-content h1 {
+  font-size: 3.5em;
+  font-weight: 70;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.text-content p {
+  font-size: 1.1em;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-button {
-  background: #ff4d4d;
-  color: white;
+.call-to-action{
+  background-color: #f06a6a;
+  color: #fff;
+  padding: 15px 30px;
   border: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 30px;
-  font-size: 1rem;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 600;
   cursor: pointer;
-  margin-bottom: 1rem;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background: #e43e3e;
+.call-to-action:hover {
+  background-color: #e05a5a;
 }
 
 .content1 {
-  font-size: 0.95rem;
+  max-width: 800px;
+  font-size: 0.9em;
   line-height: 1.6;
-  color: #ddd;
+  color: rgba(255, 255, 255, 0.7);
+  align-self: flex-start;
 }
