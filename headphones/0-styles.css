@@ -44,11 +44,11 @@ life-style: none;
   display: flex;
 }
 
-.nav ul li {
+.nav-links {
   margin-left: 30px;
 }
 
-nav ul li a {
+nav-links a {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
