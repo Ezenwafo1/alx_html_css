@@ -163,7 +163,7 @@ nav-link a:hover {
   width: 40px;
   height: 40px;
   margin-bottom: 15px;
-  filter: invert(33%) sepia(100%) saturate(500%) hue-rotate(330deg); /* reddish color */
+  filter: invert(33%) sepia(100%) saturate(500%) hue-rotate(330deg);
 }
 
 .service-box h3 {
