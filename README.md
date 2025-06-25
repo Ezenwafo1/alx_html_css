@@ -1,3 +1,4 @@
+README.md
 # 🎧 Headphone Landing Page
 
 A modern, responsive landing page for showcasing stylish, high-quality headphones. This project is designed to practice frontend development skills using HTML, CSS, and optionally JavaScript.
