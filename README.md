@@ -5,7 +5,7 @@ A modern, responsive landing page for showcasing stylish, high-quality headphone
 
 ## 🚀 Live Preview
 
-[Click here to view the live page](#) *(Replace with your live link when deployed)*
+[Click here to view the live page](#) 
 
 ---
 
